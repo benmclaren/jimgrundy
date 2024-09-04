@@ -203,11 +203,11 @@ EXCEPTIONS
   --grid-min-item-size: clamp(16rem, 33vw, 18rem); }
 
 .page-link {
-  text-decoration: underline;
-  color: var(--color-button); }
+  text-decoration: underline; }
 
 .page-link:hover {
   cursor: pointer;
+  text-decoration: none;
   color: var(--color-dark); }
 
 .nav-link {
