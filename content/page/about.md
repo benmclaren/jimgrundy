@@ -8,6 +8,7 @@ Born in Leicester, Jim attended Maidstone College of Art in the late 70s and dev
 He is now working as a full time artist from his south London studio.
 """
 layout = 'about'
+link = 'https://www.riseart.com/article/2441/q-a-with-jim-grundy?srsltid=AfmBOoraLAS_1_y2NaSNonCYKUHURAEwMt3Df6tX6ejCY6afT6XOSyI8'
 +++
 
 Jim Grundy’s paintings can appear to be in the tradition of hard edged geometric abstraction but the contrast between the fluid surfaces and areas of intense colour and their relationships are rooted in observation

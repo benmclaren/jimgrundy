@@ -578,8 +578,8 @@ video {
 .min-h-\[350px\] {
   min-height: 350px;
 }
-.w-6\/12 {
-  width: 50%;
+.w-7\/12 {
+  width: 58.333333%;
 }
 .w-full {
   width: 100%;
