@@ -1,10 +1,10 @@
 .page-link {
   text-decoration: underline;
-  color: var(--color-button);
 }
 
 .page-link:hover {
   cursor: pointer;
+  text-decoration: none;
   color: var(--color-dark);
 }
 
