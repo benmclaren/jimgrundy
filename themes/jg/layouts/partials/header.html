@@ -6,7 +6,7 @@
     <ul class="md:flex">
       {{ range .Site.Menus.main }}
         <li class="mx-3 first:ml-0 last:mr-0">
-          <a href="{{ .URL }}">{{ .Name }}</a>
+          <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
         </li>
       {{ end }}
     </ul>
