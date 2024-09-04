@@ -210,6 +210,18 @@ EXCEPTIONS
   cursor: pointer;
   color: var(--color-dark); }
 
+.nav-link {
+  transition: transform 0.25s ease-out; }
+
+.nav-link:hover {
+  border-bottom: 1px solid var(--color-button); }
+
+.svg-hover {
+  transition: .2s; }
+
+.svg-hover:hover svg {
+  fill: var(--color-button); }
+
 @media (max-width: 768px) {
   #about-content p:last-child {
     margin-top: 1rem; } }
