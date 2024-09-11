@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artist in Focus: Jim Grundy</title>
-      <link>http://localhost:1313/page/focus/</link>
+      <link>http://localhost:1313/focus/</link>
       <pubDate>Wed, 04 Sep 2024 09:51:06 +0100</pubDate>
-      <guid>http://localhost:1313/page/focus/</guid>
+      <guid>http://localhost:1313/focus/</guid>
       <description>Jim Grundy’s acrylic paintings are inspired by the relationship between colours and patterns found in the natural and built environment. During his travels he studies original designs of historical floors and mosaics, textiles, architecture, and prehistoric pottery.&#xA;Often, they are the starting point for his abstractions with squares, circles and triangles evolving into more complex elements on his canvases. Some patterns swivel like secret codes, as we can observe in Alignment 4, whereas others move vertically, horizontally or diagonally in works such as Assembly 6, Progression 1 and Correspondence No.</description>
     </item>
     <item>
@@ -248,23 +248,23 @@
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/page/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 05 Aug 2024 16:35:17 +0100</pubDate>
-      <guid>http://localhost:1313/page/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>For further information about any artwork please email at jim@jimgrundy.co.uk&#xA;Follow me @jimgrundyartist Buy my paintings at saatchiart.com/jimgrundy and riseart.com/jim-grundy </description>
     </item>
     <item>
       <title>Exhibitions</title>
-      <link>http://localhost:1313/page/exhibitions/</link>
+      <link>http://localhost:1313/exhibitions/</link>
       <pubDate>Mon, 05 Aug 2024 16:35:09 +0100</pubDate>
-      <guid>http://localhost:1313/page/exhibitions/</guid>
+      <guid>http://localhost:1313/exhibitions/</guid>
       <description></description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/page/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 05 Aug 2024 16:23:33 +0100</pubDate>
-      <guid>http://localhost:1313/page/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>Jim Grundy’s paintings can appear to be in the tradition of hard edged geometric abstraction but the contrast between the fluid surfaces and areas of intense colour and their relationships are rooted in observation of the real world. Compositions are developed from a diverse range of sources including architecture, historic artefacts and landscapes. The paintings are inspired by the relationship between the colours and geometry found in the natural and built environment.</description>
     </item>
   </channel>

@@ -26,6 +26,7 @@
   top: -9999px !important;
   left: -9999px !important; }
 
+#text-hover:hover h2,
 #text-hover:hover h3 {
   display: none; }
 

@@ -2,10 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/page/focus/</loc>
-    <lastmod>2024-09-04T09:51:06+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>http://localhost:1313/focus/</loc>
     <lastmod>2024-09-04T09:51:06+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/paintings/figures/figure_no40/</loc>
@@ -122,13 +119,13 @@
     <loc>http://localhost:1313/paintings/cobogo/</loc>
     <lastmod>2024-08-23T11:51:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2024-08-05T16:35:17+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/exhibitions/</loc>
+    <loc>http://localhost:1313/exhibitions/</loc>
     <lastmod>2024-08-05T16:35:09+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/page/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-08-05T16:23:33+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
