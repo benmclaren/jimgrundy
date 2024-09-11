@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/paintings/marine_parade/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Marine Parade No.39</title>
-      <link>http://localhost:1313/paintings/marine_parade/marine_parade_no39/</link>
+      <link>http://localhost:1313/paintings/marine_parade/marine_parade_no39/marine_parade_no39/</link>
       <pubDate>Thu, 29 Aug 2024 11:04:08 +0100</pubDate>
-      <guid>http://localhost:1313/paintings/marine_parade/marine_parade_no39/</guid>
+      <guid>http://localhost:1313/paintings/marine_parade/marine_parade_no39/marine_parade_no39/</guid>
       <description></description>
     </item>
     <item>
