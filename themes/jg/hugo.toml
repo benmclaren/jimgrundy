@@ -4,7 +4,7 @@ title = 'Jim Grundy'
 
 [[menus.main]]
 name = 'About'
-pageRef = '/page/about'
+pageRef = '/about'
 weight = 10
 
 [[menus.main]]
@@ -14,12 +14,12 @@ weight = 20
 
 [[menus.main]]
 name = 'Exhibitions'
-pageRef = '/page/exhibitions'
+pageRef = '/exhibitions'
 weight = 30
 
 [[menus.main]]
 name = 'Contact'
-pageRef = '/page/contact'
+pageRef = '/contact'
 weight = 30
 
 

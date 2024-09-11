@@ -1,97 +1,60 @@
 {{ define "main" }}
   <h1 class="mx-2 md:mx-24 text-3xl font-medium">{{ .Title }}</h1>
-  <section class="mx-2 md:mx-24 mt-16 md:mt-28">
-    <div class="mb-32">
-      {{ $cobogo := site.GetPage "paintings/cobogo" }}
-      {{ if $cobogo }}
+    {{/* Return a collection of section pages, one for each immediate descendant section of the given page. */}}
+    {{ if .Sections }} 
+      <section class="mx-2 md:mx-24 mt-28">
+        {{ range .Pages.Reverse }}    
+          <div class="mb-32">
+            <div class="sm:w-3/4 lg:w-1/2 font-extralight">
+              <a href="{{ .Permalink }}">
+                <h2 class="text-3xl font-medium">{{ .Title }}</h2>
+              </a>
+              <p class="text-3xl font-extralight">{{ .Params.year }}</p>
+              <p class="text-base sm:text-xl md:text-2xl mt-4">{{ .Params.description }}</p>
+            </div>
+            {{ with .Pages.ByDate }}
+              <div data-layout="33x3" class="cugrid cugrid-list mt-24">
+                {{ range . }}
+                  <a href="{{ .Permalink }}" id="text-hover">
+                    <div class="painting">
+                      {{ $title := .Title }}
+                      {{/*  For .Page scoped resources use [Page Resources](https://gohugo.io/content-management/page-resources/) methods. Eg.https://gohugo.io/methods/page/resources/#getmatch  */}}
+                      {{ with .Resources.GetMatch "*.*" }}
+                        <img src="{{ .RelPermalink }}" alt="{{ $title }}">
+                      {{ end }}
+                      <h3 class="font-extralight text-lg md:text-xl mt-4">{{ .Title }}</h3>
+                      <p class="font-extralight text-lg md:text-xl mt-4 hidden">{{ .Description }}</p>
+                    </div>
+                  </a>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
+      </section>
+    {{ else }}   
+      <section class="mx-2 md:mx-24">
         <div class="sm:w-3/4 lg:w-1/2 font-extralight">
-          <h3 class="text-3xl font-medium">{{ $cobogo.Title }}</h3>
-          <p class="text-3xl font-extralight">{{ $cobogo.Params.year }}</p>
-          <p class="text-base sm:text-xl md:text-2xl mt-4">{{ $cobogo.Params.description }}</p>
+          <p class="text-3xl font-extralight">{{ .Params.year }}</p>
+          <p class="text-base sm:text-xl md:text-2xl mt-4">{{ .Params.description }}</p>
         </div>
-        <div data-layout="33x3" class="cugrid cugrid-list mt-24">
-          {{ range $cobogo.Pages.ByDate }}
+        {{ with .Pages }}
+          <div data-layout="33x3" class="cugrid cugrid-list mt-24">
+          {{ range . }}
             <a href="{{ .Permalink }}" id="text-hover">
               <div class="painting">
-                {{ $image := resources.Get .Params.image }}
-                <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}"> <!-- Painting image -->
-                <h3 class="font-extralight text-lg md:text-xl mt-4">{{ .Title }}</h3>
+                {{ $title := .Title }}
+                {{ with .Resources.GetMatch "*.*" }}
+                  <img src="{{ .RelPermalink }}" alt="{{ $title }}">
+                {{ end }}
+                <h2 class="font-extralight text-lg md:text-xl mt-4">{{ .Title }}</h2>
                 <p class="font-extralight text-lg md:text-xl mt-4 hidden">{{ .Description }}</p>
               </div>
             </a>
           {{ end }}
-        </div>
-      {{ end }}
-    </div>
-    <div class="mb-32">
-      {{ $south_beach := site.GetPage "paintings/south_beach" }}
-      {{ if $south_beach }}
-        <div class="sm:w-3/4 lg:w-1/2 font-extralight">
-          <h3 class="text-3xl font-medium">{{ $south_beach.Title }}</h3>
-          <p class="text-3xl font-extralight">{{ $south_beach.Params.year }}</p>
-          <p class="text-base sm:text-xl md:text-2xl mt-4">{{ $south_beach.Params.description }}</p>
-        </div>
-        <div data-layout="33x3" class="cugrid cugrid-list mt-24">
-          {{ range $south_beach.Pages.ByDate }}
-          <a href="{{ .Permalink }}" id="text-hover">
-            <div class="painting">
-              {{ $image := resources.Get .Params.image }}
-              <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}"> <!-- Painting image -->
-              <h3 class="font-extralight text-lg md:text-xl mt-4">{{ .Title }}</h3>
-              <p class="font-extralight text-lg md:text-xl mt-4 hidden">{{ .Description }}</p>
-            </div>
-          </a>
-          {{ end }}
-        </div>
-      {{ end }}
-    </div>
-    <div class="mb-32">
-      {{ $marine_parade := site.GetPage "paintings/marine_parade" }}
-      {{ if $marine_parade }}
-        <div class="sm:w-3/4 lg:w-1/2 font-extralight">
-          <h3 class="text-3xl font-medium">{{ $marine_parade.Title }}</h3>
-          <p class="text-3xl font-extralight">{{ $marine_parade.Params.year }}</p>
-          <p class="text-base sm:text-xl md:text-2xl mt-4">{{ $marine_parade.Params.description }}</p>
-        </div>
-        <div data-layout="33x3" class="cugrid cugrid-list mt-24">
-          {{ range $marine_parade.Pages.ByDate }}
-          <a href="{{ .Permalink }}" id="text-hover">
-            <div class="painting">
-              {{ $image := resources.Get .Params.image }}
-              <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}"> <!-- Painting image -->
-              <h3 class="font-extralight text-lg md:text-xl mt-4">{{ .Title }}</h3>
-              <p class="font-extralight text-lg md:text-xl mt-4 hidden">{{ .Description }}</p>
-            </div>
-          </a>
-          {{ end }}
-        </div>
-      {{ end }}
-    </div>
-    <div class="mb-32">
-      {{ $figures := site.GetPage "paintings/figures" }}
-      {{ if $figures }}
-        <div class="sm:w-3/4 lg:w-1/2 font-extralight">
-          <h3 class="text-3xl font-medium">{{ $figures.Title }}</h3>
-          <p class="text-3xl font-extralight">{{ $figures.Params.year }}</p>
-          <p class="text-base sm:text-xl md:text-2xl mt-4">{{ $figures.Params.description }}</p>
-        </div>
-        <div data-layout="33x3" class="cugrid cugrid-list mt-24">
-          {{ range $figures.Pages.ByDate }}
-          <a href="{{ .Permalink }}" id="text-hover">
-            <div class="painting">
-              {{ $image := resources.Get .Params.image }}
-              <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}"> <!-- Painting image -->
-              <h3 class="font-extralight text-lg md:text-xl mt-4">{{ .Title }}</h3>
-              <p class="font-extralight text-lg md:text-xl mt-4 hidden">{{ .Description }}</p>
-            </div>
-          </a>
-          {{ end }}
-        </div>
-      {{ end }}
-    </div>
-    <a href="#" class="text-3xl page-link">Explore More</a>
-  </section>
+          </div>
+        {{ end }}
+      </section>
+    {{ end }}
 {{ end }}
-
-
 
