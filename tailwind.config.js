@@ -1,9 +1,8 @@
-const themeDir = __dirname + '/../../';
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    `${themeDir}/layouts/**/*.html`,
-    `${themeDir}/content/**/*.md`
+    `themes/jg/layouts/**/*.html`,
+    `content/**/*.md`
   ],
   theme: {
     extend: {
@@ -14,7 +13,7 @@ module.exports = {
         'highlight': '#F6F6F6',
         'background': '#F5FDFC'
       })
-    }
+    },
   },
   variants: {},
   plugins: []
