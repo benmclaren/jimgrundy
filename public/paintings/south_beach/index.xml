@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/paintings/south_beach/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>South Beach No.5</title>
-      <link>http://localhost:1313/paintings/south_beach/south_beach_no5/south_beach_no5/</link>
+      <link>http://localhost:1313/paintings/south_beach/south_beach_no5/</link>
       <pubDate>Wed, 28 Aug 2024 19:24:02 +0100</pubDate>
-      <guid>http://localhost:1313/paintings/south_beach/south_beach_no5/south_beach_no5/</guid>
+      <guid>http://localhost:1313/paintings/south_beach/south_beach_no5/</guid>
       <description></description>
     </item>
     <item>
