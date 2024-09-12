@@ -1,12 +1,14 @@
 2024:
   cover_images:
-    - "/images/exhibitions/2024/cover1.jpg"
+    - "images/exhibitions/the_other_art_fair_truman_brewery.jpg"
     - "/images/exhibitions/2024/cover2.jpg"
   exhibitions:
     - name: "Tarpey Gallery"
       location: "Castle Donnington"
+      year: "2024"
     - name: "The Other Art Fair"
       location: "Truman Brewery, London"
+      year: "2024"
   
 2023:
   cover_images:
@@ -15,14 +17,19 @@
   exhibitions:
     - name: "The Other Art Fair"
       location: "King’s Cross, London"
+      year: "2023"
     - name: "Dulwich Festival"
       location: "Artists’ Open House"
+      year: "2023"
     - name: "Tom Cox Gallery"
       location: " Alchemy (Group Show)"
+      year: "2023"
     - name: "FStone Gallery"
       location: "Folkestone – (Group Show)"
+      year: "2023"
     - name: "Bargehouse"
       location: "Art Maze, Oxo Tower"
+      year: "2023"
 
 2022:
   cover_images:
@@ -31,8 +38,10 @@
   exhibitions:
     - name: "Affordable Art Fair"
       location: " Battersea – Steidel Contemporary Art"
+      year: "2022"
     - name: "Dulwich Festival"
       location: "Artists’ Open House"
+      year: "2022"
 
 2020:
   cover_images:
@@ -40,6 +49,7 @@
   exhibitions:
     - name: "Art Palm Beach"
       location: "Steidel Fine Art"
+      year: "2020"
 
 2019:
   cover_images:
@@ -47,7 +57,10 @@
   exhibitions:
     - name: "Red Dot Miami"
       location: "Steidel Fine Art"
+      year: "2019"
     - name: "Steidel Fine Art"
       location: "Olympia Art Fair"
+      year: "2019"
     - name: "Dulwich Festival"
       location: "Artists’ Open House"
+      year: "2019"

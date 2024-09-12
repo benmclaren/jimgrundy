@@ -1,27 +1,33 @@
 {{ define "main" }}
   <h1 class="sm:mx-16 mx-2 md:mx-24 text-3xl font-medium">{{ .Title }}</h1>
-  <section class="mx-2 sm:mx-16 md:mx-24 mt-16 md:mt-28"> 
-    {{ range $year, $data := .Site.Data.exhibitions }}
-      <h2>{{ $year }}</h2>
+  <section class="mx-2 sm:mx-16 md:mx-24 mt-16 md:mt-28">
     
-      {{ if $data.cover_images }}
-        <div class="cover-images">
-          {{ range $data.cover_images }}
-            <img src="{{ . }}" alt="Cover image for {{ $year }}">
-          {{ end }}
-        </div>
-      {{ end }}
-
-      <ul>
-        {{ range $data.exhibitions }}
-          <li>
-            <strong>{{ .name }}</strong><br>
-            {{ .location }}<br>
-            {{ .date }}
-          </li>
-        {{ end }}
-      </ul>
-    {{ end }}
+  {{- $data := sort .Site.Data.exhibitions "year" "desc" -}}
+  
+  <!-- Iterate over each year's data -->
+  {{- range $year, $yearData := $data -}} 
+    <div class="year-section flow">
+      <h2>{{ $year }}</h2> <!-- Display the year -->
+      
+      <!-- Display cover images for the year -->
+      <div class="cover-images">
+        {{- range $yearData.cover_images -}}
+          <img src="{{ . }}" alt="Cover image for {{ $year }} exhibition">
+        {{- end -}}
+      </div>
+      
+      <!-- Iterate over each exhibition and display the name and location -->
+      <div class="exhibitions-list">
+        {{- range $yearData.exhibitions -}}
+          <div class="exhibition flex">
+            <h3>{{ .name }}</h3>
+            <p>{{ .location }}</p>
+            
+          </div>
+        {{- end -}}
+      </div>
+    </div>
+  {{- end -}}
   </section>
 {{ end }}
 
