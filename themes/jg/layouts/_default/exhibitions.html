@@ -1,31 +1,39 @@
 {{ define "main" }}
   <h1 class="sm:mx-16 mx-2 md:mx-24 text-3xl font-medium">{{ .Title }}</h1>
-  <section class="mx-2 sm:mx-16 md:mx-24 mt-16 md:mt-28">
+  <section class="mx-2 mt-16 md:mt-28">
     
-  {{- $data := sort .Site.Data.exhibitions "year" "desc" -}}
-  
   <!-- Iterate over each year's data -->
-  {{- range $year, $yearData := $data -}} 
-    <div class="year-section flow">
-      <h2>{{ $year }}</h2> <!-- Display the year -->
-      
+  {{- range $year, $yearData := sort .Site.Data.exhibitions ".Key" "desc" -}} 
+    <div class="flow exhibition-container py-16 md:p-24">
+      <div class="exhibition-info">
+        
+        <h2 class="text-3xl font-medium mb-8">{{ $year }}</h2> <!-- Display the year -->
+        
+        <!-- Iterate over each exhibition and display the name and location -->
+        <div class="exhibitions-list flow">
+          {{- range $yearData.exhibitions -}}
+            <div class="exhibition flex">
+              <div class="text-base sm:text-xl md:text-2xl font-light" id="contact-links">
+                <a href={{ .link }} target="_blank">{{ .name }}</a>
+              </div>
+              <p class="text-base sm:text-xl md:text-2xl font-extralight ml-1.5"> - {{ .location }}</p>
+            </div>
+          {{- end -}}
+        </div>
+      </div>
+
       <!-- Display cover images for the year -->
-      <div class="cover-images">
+      <div class="cover-images mt-12 lg:mt-0 md:flex justify-between">
+      {{- if gt (len $yearData.cover_images) 1 -}} <!-- Check if there is more than 1 cover image -->
         {{- range $yearData.cover_images -}}
-          <img src="{{ . }}" alt="Cover image for {{ $year }} exhibition">
+          <img src="{{ . }}" class=" w-full lg:w-3/4 object-cover object-center min-h-[400px] max-h-[400px] first-exhibition-img lg:mb-0" alt="Cover image for {{ $year }} exhibition">
         {{- end -}}
-      </div>
-      
-      <!-- Iterate over each exhibition and display the name and location -->
-      <div class="exhibitions-list">
-        {{- range $yearData.exhibitions -}}
-          <div class="exhibition flex">
-            <h3>{{ .name }}</h3>
-            <p>{{ .location }}</p>
-            
-          </div>
-        {{- end -}}
-      </div>
+      {{- else -}}
+        {{- range $yearData.cover_images -}}
+          <img src="{{ . }}" class="w-full object-cover object-center min-h-[400px] max-h-[400px]" alt="Cover image for {{ $year }} exhibition">
+        {{ end }}
+      {{- end -}}
+      </div> 
     </div>
   {{- end -}}
   </section>

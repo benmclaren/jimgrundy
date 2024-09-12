@@ -1,0 +1,44 @@
+.exhibition-container:nth-child(odd) {
+  background-color: var(--color-background);
+}
+
+@media (min-width: 1024px) {
+  .exhibition-container:nth-child(odd) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 48px;
+
+    .exhibition-info {
+      grid-column-start: 1;
+      grid-row-start: 1;
+    }
+
+    .cover-images {
+      grid-column-start: 2;
+      grid-row-start: 1;
+    }
+  }
+
+  .exhibition-container:nth-child(even) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 48px;
+
+    .exhibition-info {
+      grid-column-start: 2;
+      grid-row-start: 1;
+    }
+
+    .cover-images {
+      grid-column-start: 1;
+      grid-row-start: 1;
+    }
+
+  }
+
+}
+
+.first-exhibition-img:first-child {
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
