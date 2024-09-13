@@ -55,6 +55,9 @@
           </div>
         {{ end }}
       </section>
-    {{ end }}
+      {{ end }}
+  {{ if in .Permalink "/paintings/" }}
+    <a href="/more" class="mx-2 md:mx-24 text-3xl font-medium nav-link">Explore more</a>
+  {{ end }}
 {{ end }}
 

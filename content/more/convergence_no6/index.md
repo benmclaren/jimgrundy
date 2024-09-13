@@ -1,5 +1,5 @@
 +++
-title = 'Convergence_no6'
+title = 'Convergence No.6'
 date = 2024-09-12T17:43:31+01:00
 draft = false
 year = '2018'
