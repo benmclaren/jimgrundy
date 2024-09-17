@@ -4,7 +4,7 @@ date = 2024-09-12T17:37:39+01:00
 draft = false
 year = '2017'
 description = 'Acrylic on canvas'
-size = '90x90cm'
+size = '90 x 90 cm'
 sale = false
 gallery = 'Private Collection'
 +++
