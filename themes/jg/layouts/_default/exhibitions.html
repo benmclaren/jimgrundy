@@ -26,16 +26,16 @@
       </div>
 
       <!-- Display cover images for the year -->
-      <div class="cover-images mt-12 lg:mt-0 md:flex justify-between">
+      <div class="cover-images mt-12 lg:mt-0 flex flex-col md:flex md:flex-row justify-between">
       {{- if gt (len .cover_images) 1 -}} <!-- Check if there is more than 1 cover image -->
         {{ with .cover_images }}
           {{ range . }}
-            <img src="{{ . }}" class=" w-full lg:w-3/4 object-cover object-center min-h-[400px] max-h-[400px] first-exhibition-img lg:mb-0" alt="Cover image for exhibitions">
+            <img src="{{ . }}" class="lg:w-3/4 object-cover object-center min-h-[400px] max-h-[400px] first-exhibition-img lg:mb-0 self-center" alt="Cover image for exhibitions">
           {{ end }}
         {{ end }}
       {{ else }}
         {{ range .cover_images }}
-          <img src="{{ . }}" class="w-full object-cover object-center min-h-[400px] max-h-[400px]" alt="Cover image for exhibitions"> 
+          <img src="{{ . }}" class="object-cover object-center min-h-[400px] max-h-[400px] self-center" alt="Cover image for exhibitions"> 
         {{ end }}
       {{- end -}}
       </div> 

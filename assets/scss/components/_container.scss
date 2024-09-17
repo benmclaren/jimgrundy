@@ -2,6 +2,11 @@
   background-color: var(--color-background);
 }
 
+.first-exhibition-img:nth-child(2) {
+  margin-top: 1.5rem;
+}
+
+
 @media (min-width: 1024px) {
   .exhibition-container:nth-child(odd) {
     display: grid;
@@ -38,7 +43,12 @@
 
 }
 
-.first-exhibition-img:first-child {
-  margin-right: 1.5rem;
-  margin-bottom: 1.5rem;
+@media (min-width: 767px) {
+  .first-exhibition-img:first-child {
+    margin-right: 1.5rem;
+  }
+
+  .first-exhibition-img:nth-child(2) {
+    margin-top: 0;
+  }
 }
