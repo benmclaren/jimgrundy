@@ -6,5 +6,5 @@ year = '2011'
 description = 'Acrylic on canvas'
 size = '61 x 61 cm'
 sale = false
-gallery = 'Private Collection'
+gallery = "Private collection"
 +++

@@ -5,5 +5,8 @@ draft = false
 year = '2018'
 description = 'Acrylic on paper'
 size = '28.5 x 28.5 cm'
-sale = false
+sale = true
+price = "£750"
+purchase_link = "https://www.riseart.com/art/101579/convergence-no-3-by-jim-grundy"
+gallery = "Rise Art (also available on Saatchi)"
 +++
