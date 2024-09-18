@@ -1,15 +1,15 @@
 {{ define "main" }}
-  <h1 class="sm:mx-16 mx-2 md:mx-24 text-3xl font-medium">{{ .Title }}</h1>
-  <section class="mx-2 sm:mx-16 md:mx-24 mt-16 md:mt-28">
-    <div class="text-base sm:text-xl md:text-2xl flow font-extralight" id="contact-links">
+  <h1 class="sm:mx-16 mx-2 md:mx-24 text-2xl md:text-3xl font-medium">{{ .Title }}</h1>
+  <section class="mx-2 sm:mx-16 md:mx-24 mt-8 sm:mt-16 lg:mt-28">
+    <div class="text-base sm:text-md lg:text-2xl flow font-extralight" id="contact-links">
       {{ with .Content }}
         {{ . }}
       {{ end }}
     </div>
   </section>
-  <section class="sm:mx-16 md:mx-24 md:mt-28 flex mx-2 justify-center">
+  <section class="sm:mx-16 md:mx-24 mt-8 sm:mt-10 lg:mt-28 flex mx-2 justify-center">
     {{ $image := resources.Get "images/jim-studio.jpg" }}
-    <img src="{{ $image.RelPermalink }}" class="my-16 md:my-32 sm:w-3/4 lg:w-1/2 object-cover mt-16 min-h-[350px] max-h-[650px]" alt="Jim in studio">
+    <img src="{{ $image.RelPermalink }}" class="my-16 lg:my-32 sm:w-3/4 lg:w-1/2 object-cover mt-16 min-h-[350px] max-h-[650px]" alt="Jim in studio">
   </section>
    {{ partial "email-capture.html" . }}
 {{ end }}
