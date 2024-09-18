@@ -6,4 +6,5 @@ year = '2017'
 description = 'Acrylic on canvas'
 size = '91 x 91 cm'
 sale = false
+gallery = 'Private Collection'
 +++

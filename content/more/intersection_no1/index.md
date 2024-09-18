@@ -5,5 +5,8 @@ draft = false
 year = '2017'
 description = 'Acrylic on canvas'
 size = '91 x 91 cm'
-sale = false
+sale = true
+price = "£1,967"
+gallery = "Saatchiart"
+purchase_link = "https://www.saatchiart.com/en-gb/art/Painting-Intersection-No-1/962086/7285539/view"
 +++

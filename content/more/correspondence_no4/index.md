@@ -5,5 +5,8 @@ draft = false
 year = '2018'
 description = 'Acrylic on paper'
 size = '28 x 28 cm'
-sale = false
+sale = true
+price = "£758"
+gallery = "Saatchiart"
+purchase_link = "https://www.saatchiart.com/en-gb/art/Painting-Correspondence-No-4/962086/7113165/view"
 +++
