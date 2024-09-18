@@ -1,12 +1,12 @@
 {{ define "main" }}
   <h1 class="sm:mx-16 mx-2 md:mx-24 text-3xl font-medium">{{ .Title }}</h1>
-  <section class="mx-2 mt-16 md:mt-28">
+  <section class="mt-16 md:mt-28">
     
   <!-- Iterate over each year's data -->
   {{ $data := sort .Site.Data.exhibitions ".year" "desc" }}
   {{ range $data }} 
     <div class="flow exhibition-container py-16 md:p-24">
-      <div class="exhibition-info">
+      <div class="exhibition-info mx-2">
         
         <h2 class="text-3xl font-medium mb-8">{{ .year }}</h2> <!-- Display the year -->
         
@@ -26,16 +26,16 @@
       </div>
 
       <!-- Display cover images for the year -->
-      <div class="cover-images mt-12 lg:mt-0 flex flex-col md:flex md:flex-row justify-between">
+      <div class="cover-images mx-2 mt-12 lg:mt-0 flex flex-col md:flex md:flex-row justify-between">
       {{- if gt (len .cover_images) 1 -}} <!-- Check if there is more than 1 cover image -->
         {{ with .cover_images }}
           {{ range . }}
-            <img src="{{ . }}" class="lg:w-3/4 object-cover object-center min-h-[400px] max-h-[400px] first-exhibition-img lg:mb-0 self-center" alt="Cover image for exhibitions">
+            <img src="{{ . }}" class="object-contain object-center max-h-[450px] first-exhibition-img w-full lg:mb-0 self-center" alt="Cover image for exhibitions">
           {{ end }}
         {{ end }}
       {{ else }}
         {{ range .cover_images }}
-          <img src="{{ . }}" class="object-cover object-center min-h-[400px] max-h-[400px] self-center" alt="Cover image for exhibitions"> 
+          <img src="{{ . }}" class="object-cover w-full object-center max-h-[400px] self-center" alt="Cover image for exhibitions"> 
         {{ end }}
       {{- end -}}
       </div> 
