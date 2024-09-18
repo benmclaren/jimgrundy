@@ -223,6 +223,40 @@ EXCEPTIONS
 .svg-hover:hover svg {
   fill: var(--color-button); }
 
+.exhibition-container:nth-child(odd) {
+  background-color: var(--color-background); }
+
+.first-exhibition-img:nth-child(2) {
+  margin-top: 1.5rem; }
+
+@media (min-width: 1024px) {
+  .exhibition-container:nth-child(odd) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 48px; }
+    .exhibition-container:nth-child(odd) .exhibition-info {
+      grid-column-start: 1;
+      grid-row-start: 1; }
+    .exhibition-container:nth-child(odd) .cover-images {
+      grid-column-start: 2;
+      grid-row-start: 1; }
+  .exhibition-container:nth-child(even) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 48px; }
+    .exhibition-container:nth-child(even) .exhibition-info {
+      grid-column-start: 2;
+      grid-row-start: 1; }
+    .exhibition-container:nth-child(even) .cover-images {
+      grid-column-start: 1;
+      grid-row-start: 1; } }
+
+@media (min-width: 767px) {
+  .first-exhibition-img:first-child {
+    margin-right: 1.5rem; }
+  .first-exhibition-img:nth-child(2) {
+    margin-top: 0; } }
+
 @media (max-width: 768px) {
   #about-content p:last-child {
     margin-top: 1rem; } }
