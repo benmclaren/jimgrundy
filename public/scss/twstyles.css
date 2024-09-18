@@ -813,6 +813,11 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .md\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
