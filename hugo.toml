@@ -1,4 +1,5 @@
-baseURL = 'http://localhost:1313/'
+# baseURL = 'http://localhost:1313/'
+baseURL = "voiceless-rock.cloudvent.net/"
 languageCode = 'en-us'
 title = 'Jim Grundy'
 theme = 'jg'
