@@ -227,7 +227,7 @@ EXCEPTIONS
 .svg-hover:hover svg {
   fill: var(--color-button); }
 
-.exhibition-bgcolor:nth-child(odd) {
+.exhibition-container:nth-child(odd) {
   background-color: var(--color-background); }
 
 .first-exhibition-img:nth-child(2) {
