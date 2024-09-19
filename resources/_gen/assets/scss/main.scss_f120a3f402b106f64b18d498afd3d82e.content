@@ -75,6 +75,10 @@ nav {
 header nav ul {
   display: none; }
 
+@media (min-width: 834px) {
+  header nav ul {
+    display: flex; } }
+
 .burger div {
   width: 25px;
   height: 3px;
@@ -101,7 +105,7 @@ header nav ul {
   border: none;
   background-color: transparent; }
 
-@media (min-width: 768px) {
+@media (min-width: 834px) {
   .burger {
     display: none; } }
 
@@ -223,7 +227,7 @@ EXCEPTIONS
 .svg-hover:hover svg {
   fill: var(--color-button); }
 
-.exhibition-container:nth-child(odd) {
+.exhibition-bgcolor:nth-child(odd) {
   background-color: var(--color-background); }
 
 .first-exhibition-img:nth-child(2) {
