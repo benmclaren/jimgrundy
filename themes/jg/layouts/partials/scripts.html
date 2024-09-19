@@ -2,5 +2,5 @@
 
 {{ $script := slice $main | resources.Concat "app.js" }}
 
-<script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}
 "></script>
