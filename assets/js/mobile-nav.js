@@ -8,10 +8,12 @@ const accessible = () => {
   menu = menu.toggleAttribute("hidden");
 }
 
-burger.addEventListener('click', () => {
-  burger.classList.toggle('toggle');
-  mobileNav.classList.toggle('open');
-  // accessible();
+document.addEventListener('DOMContentLoaded', () => {
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('toggle');
+    mobileNav.classList.toggle('open');
+    // accessible();
+  });
 });
 
 
