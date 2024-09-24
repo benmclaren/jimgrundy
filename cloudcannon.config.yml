@@ -1,12 +1,5 @@
 _snippets_imports:
   hugo: false
-_snippets:
-  external_link: 
-    template: hugo_paired_shortcode_positional_args
-    inline: true
-    # defintions:
-    #   shortcode_name: external_link
-    #   content_key:
 paths:
   data: data
   collections: content
@@ -21,6 +14,14 @@ paths:
   pages: content
   publish: public
   config: ''
+collection_groups:
+  - heading: Collections
+    collections:
+      - pages
+      - paintings
+  - heading: Data
+    collections:
+      - exhibitions
 collections_config:
   pages:
     path: content
