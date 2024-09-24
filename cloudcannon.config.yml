@@ -39,9 +39,7 @@ _inputs:
     type: text
     hidden: true
     cascade: true
-  title:
-    type: text
-    comment: Title of painting
-    label: Name
+  sale:
+    type: switch
 data_config: {}
 timezone: Etc/UTC
