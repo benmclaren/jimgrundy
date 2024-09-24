@@ -25,6 +25,9 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   paintings:
+    schemas:
+      default:
+        path: .cloudcannon/schemas/paintings.md
     path: content/paintings
     output: true
     icon: notes
@@ -36,5 +39,9 @@ _inputs:
     type: text
     hidden: true
     cascade: true
+  title:
+    type: text
+    comment: Title of painting
+    label: Name
 data_config: {}
 timezone: Etc/UTC
