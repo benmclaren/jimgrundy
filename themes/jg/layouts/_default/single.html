@@ -1,8 +1,8 @@
 {{ define "main" }}
   <section class="flex items-start justify-between mx-2 md:mx-24">
     <div>
-      <h1 class="text-3xl font-medium">{{ .Title }}</h1>
-      <p class="text-3xl font-extralight">{{ .Params.year }}</p>
+      <h1 class="text-2xl lg:text-3xl font-medium">{{ .Title }}</h1>
+      <p class=" text-xl lg:text-2xl font-extralight">{{ .Params.year }}</p>
     </div>
     {{ if .Params.sale }}
       <a href="{{ .Params.purchase_link }}" class="button-submit" target="_blank">Buy</a>

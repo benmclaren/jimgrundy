@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <h1 class="sm:mx-16 mx-2 md:mx-24 text-3xl font-medium">{{ .Title }}</h1>
+  <h1 class="sm:mx-16 mx-2 md:mx-24 text-2xl lg:text-3xlfont-medium">{{ .Title }}</h1>
   <section class="mx-2 sm:mx-16 md:mx-24 md:flex mt-16 md:mt-28">
     <div class="md:w-6/12 md:mr-12 text-base sm:text-xl lg:text-2xl md:flex md:flex-col md:justify-end flow">
       <div class="flow font-extralight">
@@ -7,17 +7,17 @@
           {{ .Params.intro | markdownify }}
         </p>
       </div>
-      <div class="mt-16 md:mt-32 flex flex-col flow">
+      <div class="mt-16 md:mt-20 lg:mt-32 flex flex-col flow">
         <h3 class="font-medium">Read more</h3>
         <a class="page-link font-extralight" href="{{ .Params.link }}" target="_blank">RiseArt: An Interview with Jim Grundy</a>
         <a class="page-link font-extralight" href="/page/focus">Artist in Focus: Jim Grundy</a>
       </div>
     </div>
     {{ $portrait := resources.Get "images/portrait-jim.jpg" }}
-    <img src="{{ $portrait.RelPermalink }}" class="sm:w-3/4 lg:w-1/2 object-cover mt-16 md:mt-0 min-h-[350px] max-h-[650px]" alt="Portrait of Jim">
+    <img src="{{ $portrait.RelPermalink }}" class="sm:w-3/4 lg:w-1/2 object-contain mt-16 md:mt-0 min-h-[350px] max-h-[650px]" alt="Portrait of Jim">
   </section>
   <section class=" bg-background py-16 md:py-24 my-16 md:my-24">
-    <div class="md:grid grid-cols-2 gap-12 mx-2 sm:mx-16 md:mx-24 text-base sm:text-xl md:text-2xl font-extralight" id="about-content">
+    <div class="md:grid grid-cols-2 gap-12 mx-2 sm:mx-16 md:mx-24 text-base sm:text-xl lg:text-2xl font-extralight" id="about-content">
       {{ with .Content }}
         {{ . }}
       {{ end }}
