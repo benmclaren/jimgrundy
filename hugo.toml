@@ -5,3 +5,6 @@ title = 'Jim Grundy'
 theme = 'jg'
 [params]
 css = "/css/main.css"
+# Allow HTML in markdown (use with caution)
+[markup.goldmark.renderer]
+unsafe = true 
