@@ -11,10 +11,6 @@
       location: Truman Brewery, London
       year: '2024'
       link: https://www.theotherartfair.com/
-    - name: test
-      location: tets
-      year: '2024'
-      link: ''
 - year: 2023
   cover_images:
     - ../images/exhibitions/2023/the_other_art_fair_king's_cross.jpg
