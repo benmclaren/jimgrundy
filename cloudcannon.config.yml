@@ -41,5 +41,13 @@ _inputs:
     cascade: true
   sale:
     type: switch
+  gallery:
+    hidden: '!sale'
+  price:
+    hidden: '!sale'
+  purchase_link:
+    hidden: '!sale'
+  draft:
+    type: switch
 data_config: {}
 timezone: Etc/UTC
