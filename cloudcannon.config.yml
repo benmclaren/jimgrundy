@@ -43,7 +43,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   exhibitions:
-    path: data/exhibitions.yml
+    path: data
     text_key: label
 _inputs:
   layout:
