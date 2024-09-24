@@ -45,6 +45,10 @@ collections_config:
   exhibitions:
     path: data
     preview: label
+    _inputs:
+      year: 
+        type: array
+        label: year
 _inputs:
   layout:
     type: text
