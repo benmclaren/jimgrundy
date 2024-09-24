@@ -5,11 +5,9 @@
   exhibitions:
     - name: Tarpey Gallery
       location: Castle Donnington
-      year: '2024'
       link: https://tarpeygallery.com/
     - name: The Other Art Fair
       location: Truman Brewery, London
-      year: '2024'
       link: https://www.theotherartfair.com/
 - year: 2023
   cover_images:
