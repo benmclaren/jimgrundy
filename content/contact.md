@@ -4,7 +4,7 @@ date = 2024-08-05T15:35:17.000Z
 draft = false
 layout = "contact"
 +++
-For <a href="https://www.google.com" target="_blank" rel="noopener">further</a> information about any artwork please **email** at jim@jimgrundy.co.uk
+For further information about any artwork please **email** at jim@jimgrundy.co.uk
 
 **Follow** me <a href="https://www.instagram.com/jimgrundyartist?igsh=NHo2YzFmNm53OGhv" target="_blank" rel="noreferrer nofollow noopener">@jimgrundyartist</a>
 
