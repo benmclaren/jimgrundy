@@ -41,8 +41,6 @@ _inputs:
     cascade: true
   sale:
     type: switch
-  gallery:
-    hidden: '!sale'
   price:
     hidden: '!sale'
   purchase_link:
