@@ -44,7 +44,7 @@ collections_config:
     disable_file_actions: false
   exhibitions:
     path: data
-    text_key: label
+    text_key: year
 _inputs:
   layout:
     type: text
