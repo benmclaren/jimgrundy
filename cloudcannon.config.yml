@@ -71,6 +71,10 @@ collections_config:
             cascade: true
       series_info:  
         path: .cloudcannon/schemas/series_info.md
+    add_options:
+      - name: Add series information
+        editor: data
+        schema: series_info
   exhibitions:
     path: data
     preview: label
