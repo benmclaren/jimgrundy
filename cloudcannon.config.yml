@@ -64,4 +64,4 @@ _inputs:
   intro:
     type: textarea
 data_config: {}
-timezone: Etc/UTC
+timezone: Europe/London
