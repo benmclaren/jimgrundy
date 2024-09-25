@@ -38,7 +38,7 @@
           <p class="text-3xl font-extralight">{{ .Params.year }}</p>
           <p class="text-base sm:text-xl md:text-2xl mt-4">{{ .Params.description }}</p>
         </div>
-        {{ with .Pages }}
+        {{ with .Pages.ByDate }}
           <div data-layout="33x3" class="cugrid cugrid-list mt-24">
           {{ range . }}
             <a href="{{ .Permalink }}" id="text-hover">
