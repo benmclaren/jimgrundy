@@ -33,6 +33,9 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   paintings:
+    _enabled_editors:
+      - visual
+      - data
     path: content/paintings
     icon: notes
     output: true
