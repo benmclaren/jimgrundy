@@ -68,7 +68,9 @@ collections_config:
               paths:
                 uploads: '[base_path]/'
                 static: ''
-            cascade: true 
+            cascade: true
+      series_info:  
+        path: .cloudcannon/schemas/series_info.md
   exhibitions:
     path: data
     preview: label
