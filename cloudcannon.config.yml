@@ -53,6 +53,22 @@ collections_config:
           label: Painting number
           comment: Add the number of the painting in the series.
           cascade: true 
+    schemas:
+      default:
+        path: .cloudcannon/schemas/paintings.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        icon: notes
+        _inputs:
+          image:
+            type: image
+            options:
+              paths:
+                uploads: '[base_path]/'
+                static: ''
+            cascade: true 
   exhibitions:
     path: data
     preview: label
