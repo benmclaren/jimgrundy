@@ -18,7 +18,7 @@ collection_groups:
   - heading: Collections
     collections:
       - pages
-      - main series paintings
+      - paintings
   - heading: Data
     collections:
       - exhibitions
