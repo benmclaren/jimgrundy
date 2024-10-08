@@ -9,9 +9,6 @@
     - name: The Other Art Fair
       location: Truman Brewery, London
       link: https://www.theotherartfair.com/
-    - name: Test
-      location: test
-      link: ''
 - year: '2023'
   cover_images:
     - ../images/exhibitions/2023/the_other_art_fair_king's_cross.jpg
