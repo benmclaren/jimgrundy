@@ -10,4 +10,6 @@ sale = false
 gallery = ''
 price = ''
 purchase_link = ''
+painting_series = ''
+number = ''
 +++
