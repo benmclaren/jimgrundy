@@ -42,6 +42,12 @@ collections_config:
     create:
       path: '{painting_series}/{painting_series}_no{number}/index.md'
       _inputs:
+        image:
+          type: image
+          options:
+            paths:
+              uploads: '{painting_series}/{painting_series}_no{number}'
+              static: ''
         painting_series:
           type: text
           comment: >-
