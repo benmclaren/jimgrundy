@@ -1,0 +1,12 @@
+<section>
+  <div class="md:flex mx-2 md:mx-24 overflow-x-auto carousel-container">
+    {{ $image1 := resources.Get "images/home-1.jpg" }}
+    <img src="{{ $image1.RelPermalink }}" class="carousel-image object-cover" alt="Jim at Art fair">
+    {{ $image2 := resources.Get "images/home-2.jpg" }}
+    <img src="{{ $image2.RelPermalink }}" class="carousel-image object-cover" alt="Jim at Art fair">
+    {{ $image3 := resources.Get "images/home-3.jpg" }}
+    <img src="{{ $image3.RelPermalink }}" class="carousel-image object-cover" alt="Jim at Art fair">
+    {{ $image4 := resources.Get "images/home-4.jpg" }}
+    <img src="{{ $image4.RelPermalink }}" class="carousel-image object-cover" alt="Jim at Art fair">
+  </div>
+</section>

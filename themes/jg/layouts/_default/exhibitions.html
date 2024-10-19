@@ -27,17 +27,9 @@
 
       <!-- Display cover images for the year -->
       <div class="cover-images mx-2 mt-12 lg:mt-0 flex flex-col md:flex md:flex-row justify-between">
-      {{- if gt (len .cover_images) 1 -}} <!-- Check if there is more than 1 cover image -->
-        {{ with .cover_images }}
-          {{ range . }}
-            <img src="{{ . }}" class="object-contain object-center max-h-[450px] first-exhibition-img w-full lg:mb-0 self-center" alt="Cover image for exhibitions">
-          {{ end }}
+        {{ with .cover_image }}
+          <img src="{{ . }}" class="object-contain object-center max-h-[450px] first-exhibition-img w-full lg:mb-0 self-center" alt="Cover image for exhibitions">
         {{ end }}
-      {{ else }}
-        {{ range .cover_images }}
-          <img src="{{ . }}" class="object-cover w-full object-center max-h-[400px] self-center" alt="Cover image for exhibitions"> 
-        {{ end }}
-      {{- end -}}
       </div> 
     </div>
   {{- end -}}

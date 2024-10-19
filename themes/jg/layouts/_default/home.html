@@ -1,12 +1,5 @@
 {{ define "main" }}
-  <section>
-    <div class="md:flex mx-2 md:mx-24">
-      {{ $image1 := resources.Get "images/home-1.jpg" }}
-      <img src="{{ $image1.RelPermalink }}" class="md:w-2/4 object-cover" alt="Jim at Art fair">
-      {{ $image2 := resources.Get "images/home-2.jpg" }}
-      <img src="{{ $image2.RelPermalink }}" class="md:w-2/4 object-cover" alt="Jim at Art fair">
-    </div>
-  </section>
+  {{ partial "carousel.html" }}
   {{ with .Content }}
     <div class="sm:w-3/4 lg:w-1/2 text-base sm:text-xl md:text-2xl my-16 md:my-32 mx-2 md:mx-24  font-extralight">
       {{ . }}

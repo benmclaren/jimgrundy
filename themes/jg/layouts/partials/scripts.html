@@ -1,6 +1,8 @@
-{{ $main := resources.Get "js/mobile-nav.js" }}
+{{ $mobileNav := resources.Get "js/mobile-nav.js" }}
+{{ $carousel := resources.Get "js/carousel.js" }}
 
-{{ $script := slice $main | resources.Concat "app.js" }}
+
+{{ $script := slice $mobileNav $carousel | resources.Concat "app.js" }}
 
 <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}
 "></script>
