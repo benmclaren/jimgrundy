@@ -109,6 +109,8 @@ collections_config:
     path: data
     preview: label
     _inputs:
+      year:
+        type: text
       exhibitions: 
         type: text
       cover_image:
