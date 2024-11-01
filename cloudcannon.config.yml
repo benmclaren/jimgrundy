@@ -113,9 +113,9 @@ collections_config:
         type: text
       exhibitions: 
         type: text
-      cover_images:
+      cover_image:
         type: array
-      cover_images[*]:
+      cover_image[*]:
         type: image
         options:
           paths:
