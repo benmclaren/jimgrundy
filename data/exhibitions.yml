@@ -1,7 +1,6 @@
 - year: 2024
-  cover_images:
-    - "../images/exhibitions/2024/the_other_art_fair_truman_brewery.jpg"
-    - "../images/exhibitions/2024/other_art_fair.jpg"
+  cover_image: "../images/exhibitions/the_other_art_fair_truman_brewery.jpg"
+    # - "../images/exhibitions/other_art_fair.jpg"
   exhibitions:
     - name: "Tarpey Gallery"
       location: "Castle Donnington"
@@ -12,9 +11,8 @@
       year: "2024"
       link: "https://www.theotherartfair.com/"
 - year: 2023
-  cover_images:
-    - "../images/exhibitions/2023/the_other_art_fair_king's_cross.jpg"
-    - "../images/exhibitions/2023/tom_cox_gallery.jpg"
+  cover_image: "../images/exhibitions/the_other_art_fair_king's_cross.jpg"
+    # - "../images/exhibitions/tom_cox_gallery.jpg"
   exhibitions:
     - name: "The Other Art Fair"
       location: "King’s Cross, London"
@@ -37,9 +35,8 @@
       year: "2023"
       link: "https://exhibithere.com/"
 - year: 2022
-  cover_images:
-    - "../images/exhibitions/2022/artists_open_house_2.jpg"
-    - "../images/exhibitions/2022/affordable_art_fair_1.jpg"
+  cover_image: "../images/exhibitions/artists_open_house_2.jpg"
+    # - "../images/exhibitions/affordable_art_fair_1.jpg"
   exhibitions:
     - name: "Affordable Art Fair"
       location: " Battersea – Steidel Contemporary Art"
@@ -50,16 +47,14 @@
       year: "2022"
       link": "https://dulwichfestival.co.uk/"
 - year: 2020
-  cover_images:
-    - "../images/exhibitions/2020/west_palm_beach.jpg"
+  cover_image: "../images/exhibitions/west_palm_beach.jpg"
   exhibitions:
     - name: "Art Palm Beach"
       location: "Steidel Fine Art"
       year: "2020"
       link: "https://www.steidelcontemporary.com/"
 - year: 2019
-  cover_images:
-    - "../images/exhibitions/2019/artists_open_house_3.jpg"
+  cover_image: "../images/exhibitions/artists_open_house_3.jpg"
   exhibitions:
     - name: "Red Dot Miami"
       location: "Steidel Fine Art"
