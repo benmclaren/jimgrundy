@@ -9,7 +9,8 @@
 }
 
 .nav-link {
-  transition: transform 0.25s ease-out
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
 }
 
 .nav-link:hover {

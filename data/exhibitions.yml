@@ -1,68 +1,68 @@
 - year: '2024'
-  cover_image: ../images/exhibitions/the_other_art_fair_truman_brewery.jpg
+  cover_image: "../images/exhibitions/the_other_art_fair_truman_brewery.jpg"
   exhibitions:
-    - name: Tarpey Gallery
-      location: Castle Donnington
-      year: '2024'
-      link: https://tarpeygallery.com/
-    - name: The Other Art Fair
-      location: Truman Brewery, London
-      year: '2024'
-      link: https://www.theotherartfair.com/
+    - name: "Tarpey Gallery"
+      location: "Castle Donnington"
+      year: "2024"
+      link: "https://tarpeygallery.com/"
+    - name: "The Other Art Fair"
+      location: "Truman Brewery, London"
+      year: "2024"
+      link: "https://www.theotherartfair.com/"
 - year: '2023'
-  cover_image: ../images/exhibitions/the_other_art_fair_king's_cross.jpg
+  cover_image: "../images/exhibitions/the_other_art_fair_king's_cross.jpg"
   exhibitions:
-    - name: The Other Art Fair
-      location: King’s Cross, London
-      year: '2023'
-      link: https://www.theotherartfair.com/
-    - name: Dulwich Festival
-      location: Artists’ Open House
-      year: '2023'
-      link: https://dulwichfestival.co.uk/
-    - name: Tom Cox Gallery
-      location: ' Alchemy (Group Show)'
-      year: '2023'
-      link: https://www.tomcoxstudio.com/exhibitions/alchemy-opencall-exhibition
-    - name: FStone Gallery
-      location: Folkestone – (Group Show)
-      year: '2023'
-      link: >-
-        https://www.creativefolkestone.org.uk/folkestone-creative-quarter/community/folkestone-art-gallery/
-    - name: Bargehouse
-      location: Art Maze, Oxo Tower
-      year: '2023'
-      link: https://exhibithere.com/
+    - name: "The Other Art Fair"
+      location: "King’s Cross, London"
+      year: "2023"
+      link: "https://www.theotherartfair.com/"
+    - name: "Dulwich Festival"
+      location: "Artists’ Open House"
+      year: "2023"
+      link: "https://dulwichfestival.co.uk/"
+    - name: "Tom Cox Gallery"
+      location: " Alchemy (Group Show)"
+      year: "2023"
+      link: "https://www.tomcoxstudio.com/exhibitions/alchemy-opencall-exhibition"
+    - name: "FStone Gallery"
+      location: "Folkestone – (Group Show)"
+      year: "2023"
+      link: "https://www.creativefolkestone.org.uk/folkestone-creative-quarter/community/folkestone-art-gallery/"
+    - name: "Bargehouse"
+      location: "Art Maze, Oxo Tower"
+      year: "2023"
+      link: "https://exhibithere.com/"
 - year: '2022'
-  cover_image: ../images/exhibitions/artists_open_house_2.jpg
+  cover_image: "../images/exhibitions/artists_open_house_2.jpg"
   exhibitions:
-    - name: Affordable Art Fair
-      location: ' Battersea – Steidel Contemporary Art'
-      year: '2022'
-      link: https://affordableartfair.com/
-    - name: Dulwich Festival
-      location: Artists’ Open House
-      year: '2022'
-      link": https://dulwichfestival.co.uk/
+    - name: "Affordable Art Fair"
+      location: " Battersea – Steidel Contemporary Art"
+      year: "2022"
+      link: "https://affordableartfair.com/"
+    - name: "Dulwich Festival"
+      location: "Artists’ Open House"
+      year: "2022"
+      link": "https://dulwichfestival.co.uk/"
 - year: '2020'
-  cover_image: ../images/exhibitions/west_palm_beach.jpg
+  cover_image: "../images/exhibitions/west_palm_beach.jpg"
   exhibitions:
-    - name: Art Palm Beach
-      location: Steidel Fine Art
-      year: '2020'
-      link: https://www.steidelcontemporary.com/
+    - name: "Art Palm Beach"
+      location: "Steidel Fine Art"
+      year: "2020"
+      link: "https://www.steidelcontemporary.com/"
 - year: '2019'
-  cover_image: ../images/exhibitions/artists_open_house_3.jpg
+  cover_image: "../images/exhibitions/artists_open_house_3.jpg"
   exhibitions:
-    - name: Red Dot Miami
-      location: Steidel Fine Art
-      year: '2019'
-      link: https://redwoodartgroup.com/red-dot-miami/
-    - name: Steidel Fine Art
-      location: Olympia Art Fair
-      year: '2019'
-      link: https://www.olympia-art-antiques.com/
-    - name: Dulwich Festival
-      location: Artists’ Open House
-      year: '2019'
-      link: https://dulwichfestival.co.uk/
+    - name: "Red Dot Miami"
+      location: "Steidel Fine Art"
+      year: "2019"
+      link: "https://redwoodartgroup.com/red-dot-miami/"
+    - name: "Steidel Fine Art"
+      location: "Olympia Art Fair"
+      year: "2019"
+      link: "https://www.olympia-art-antiques.com/"
+    - name: "Dulwich Festival"
+      location: "Artists’ Open House"
+      year: "2019"
+      link: "https://dulwichfestival.co.uk/"
+

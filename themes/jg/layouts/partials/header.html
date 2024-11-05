@@ -1,9 +1,9 @@
-<header class="h-20 md:h-36 mx-2 sm:mx-16 md:mx-24 ">
+<header class="h-20 md:h-36 mx-2 sm:mx-16 md:mx-24">
   <nav class="flex items-center justify-between h-full">
     <a href="/">
       <h1 class="text-3xl">{{ site.Title }}</h1>
     </a>
-    <ul class="md:flex">
+    <ul class="desktop-ul">
       {{ range .Site.Menus.main }}
         <li class="mx-3 first:ml-0 last:mr-0">
           <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
@@ -17,4 +17,3 @@
     </button>
   </nav>
 </header>
-

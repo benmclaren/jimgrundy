@@ -577,6 +577,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-32 {
   margin-bottom: 8rem;
 }
@@ -615,10 +619,6 @@ video {
 
 .mt-24 {
   margin-top: 6rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
 }
 
 .mt-4 {
@@ -746,6 +746,11 @@ video {
   text-align: right;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -806,6 +811,10 @@ video {
     margin-right: 4rem;
   }
 
+  .sm\:ml-16 {
+    margin-left: 4rem;
+  }
+
   .sm\:w-3\/4 {
     width: 75%;
   }
@@ -837,6 +846,10 @@ video {
     margin-bottom: 8rem;
   }
 
+  .md\:ml-24 {
+    margin-left: 6rem;
+  }
+
   .md\:mr-12 {
     margin-right: 3rem;
   }
@@ -849,12 +862,12 @@ video {
     margin-top: 0px;
   }
 
-  .md\:mt-28 {
-    margin-top: 7rem;
+  .md\:mt-20 {
+    margin-top: 5rem;
   }
 
-  .md\:mt-32 {
-    margin-top: 8rem;
+  .md\:mt-28 {
+    margin-top: 7rem;
   }
 
   .md\:flex {
@@ -889,10 +902,6 @@ video {
     justify-content: flex-end;
   }
 
-  .md\:p-24 {
-    padding: 6rem;
-  }
-
   .md\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -901,6 +910,11 @@ video {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-xl {
@@ -914,12 +928,21 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:my-32 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
 
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:mt-32 {
+    margin-top: 8rem;
   }
 
   .lg\:w-1\/2 {
@@ -929,5 +952,10 @@ video {
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
