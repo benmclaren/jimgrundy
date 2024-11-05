@@ -114,7 +114,7 @@ collections_config:
       exhibitions: 
         type: text
       cover_image:
-        type: array
+        type: text
       cover_image[*]:
         type: image
         options:
