@@ -1,4 +1,4 @@
-- year: 2024
+- year: '2024'
   cover_image: "../images/exhibitions/the_other_art_fair_truman_brewery.jpg"
   exhibitions:
     - name: "Tarpey Gallery"
@@ -9,7 +9,7 @@
       location: "Truman Brewery, London"
       year: "2024"
       link: "https://www.theotherartfair.com/"
-- year: 2023
+- year: '2023'
   cover_image: "../images/exhibitions/the_other_art_fair_king's_cross.jpg"
   exhibitions:
     - name: "The Other Art Fair"
@@ -32,7 +32,7 @@
       location: "Art Maze, Oxo Tower"
       year: "2023"
       link: "https://exhibithere.com/"
-- year: 2022
+- year: '2022'
   cover_image: "../images/exhibitions/artists_open_house_2.jpg"
   exhibitions:
     - name: "Affordable Art Fair"
@@ -43,14 +43,14 @@
       location: "Artists’ Open House"
       year: "2022"
       link": "https://dulwichfestival.co.uk/"
-- year: 2020
+- year: '2020'
   cover_image: "../images/exhibitions/west_palm_beach.jpg"
   exhibitions:
     - name: "Art Palm Beach"
       location: "Steidel Fine Art"
       year: "2020"
       link: "https://www.steidelcontemporary.com/"
-- year: 2019
+- year: '2019'
   cover_image: "../images/exhibitions/artists_open_house_3.jpg"
   exhibitions:
     - name: "Red Dot Miami"

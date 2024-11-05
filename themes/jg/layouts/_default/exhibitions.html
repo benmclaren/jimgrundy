@@ -1,45 +1,28 @@
 {{ define "main" }}
-  <h1 class="sm:mx-16 mx-2 md:mx-24 text-2xl lg:text-3xl font-medium">{{ .Title }}</h1>
+  <h1 class="sm:mx-16 mx-2 md:mx-24 text-3xl font-medium">{{ .Title }}</h1>
   <section class="mt-16 md:mt-28">
     
   <!-- Iterate over each year's data -->
   {{ $data := sort .Site.Data.exhibitions ".year" "desc" }}
   {{ range $data }} 
-    {{/*  <div class="exhibitions-bg">  */}}
-      <div class="flow exhibition-container py-16">
-        {{/*  <div class="sm:mx-16 mx-2 md:mx-24 ">  */}}
-          <div class="exhibition-info sm:ml-16 mx-2 md:ml-24"> 
-            <h2 class="text-3xl font-medium mb-8">{{ .year }}</h2> <!-- Display the year -->
-            <!-- Iterate over each exhibition and display the name and location -->
-            <div class="exhibitions-list flow ">
-              {{ with .exhibitions }}
-                {{ range . }}
-                  <div class="exhibition flex">
-                    <div class="text-base md:text-xl lg:text-2xl font-light" id="contact-links">
-                      <a href={{ .link }} target="_blank">{{ .name }}</a>
-                    </div>
-                    <p class="text-base md:text-xl lg:text-2xl font-extralight ml-1.5"> - {{ .location }}</p>
-                  </div>
-                {{ end }}
-              {{- end -}}
-            </div>
-          </div>
-    
-          <!-- Display cover images for the year -->
-          <div class="cover-images mx-2 mt-12 lg:mt-0 flex flex-col md:flex md:flex-row justify-between sm:mx-16 md:mx-24">
-            {{- if gt (len .cover_images) 1 -}} <!-- Check if there is more than 1 cover image -->
-              {{ with .cover_images }}
-                {{ range . }}
-                  <img src="{{ . }}" class="object-contain object-center max-h-[450px] first-exhibition-img w-full lg:mb-0 self-center" alt="Cover image for exhibitions">
-                {{ end }}
-              {{ end }}
-            {{ else }}
-              {{ range .cover_images }}
-                <img src="{{ . }}" class="object-cover w-full object-center max-h-[400px] self-center" alt="Cover image for exhibitions"> 
-              {{ end }}
-            {{- end -}}
-          </div> 
-        {{/*  </div>  */}}
+    <div class="flow exhibition-container py-16 md:p-24">
+      <div class="exhibition-info mx-2">
+        
+        <h2 class="text-3xl font-medium mb-8">{{ .year }}</h2> <!-- Display the year -->
+        
+        <!-- Iterate over each exhibition and display the name and location -->
+        <div class="exhibitions-list flow">
+          {{ with .exhibitions }}
+            {{ range . }}
+              <div class="exhibition flex">
+                <div class="text-base sm:text-xl md:text-2xl font-light" id="contact-links">
+                  <a href={{ .link }} target="_blank">{{ .name }}</a>
+                </div>
+                <p class="text-base sm:text-xl md:text-2xl font-extralight ml-1.5"> - {{ .location }}</p>
+              </div>
+            {{ end }}
+          {{- end -}}
+        </div>
       </div>
 
       <!-- Display cover images for the year -->
@@ -52,7 +35,3 @@
   {{- end -}}
   </section>
 {{ end }}
-
-
-
-
