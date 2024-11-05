@@ -26,6 +26,8 @@ collection_groups:
 collections_config:
   more:
     path: content/more
+    add_option:
+      - name: Add standalone painting
     schemas:
       default:
         path: .cloudcannon/schemas/paintings.md
@@ -33,7 +35,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: true
-        icon: notes
+        icon: add
         _inputs:
           image:
             type: image
@@ -114,7 +116,7 @@ collections_config:
       exhibitions: 
         type: text
       cover_image:
-        type: array
+        type: file
       cover_image[*]:
         type: image
         options:
