@@ -5,7 +5,7 @@
   <!-- Iterate over each year's data -->
   {{ $data := sort .Site.Data.exhibitions ".year" "desc" }}
   {{ range $data }} 
-    <div class="flow exhibition-container py-16 md:p-24">
+    <div class="flow exhibition-container py-16 sm:px-16 md:px-24">
       <div class="exhibition-info mx-2">
         
         <h2 class="text-3xl font-medium mb-8">{{ .year }}</h2> <!-- Display the year -->

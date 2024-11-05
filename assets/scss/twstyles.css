@@ -645,10 +645,6 @@ video {
   height: 100%;
 }
 
-.max-h-\[400px\] {
-  max-height: 400px;
-}
-
 .max-h-\[450px\] {
   max-height: 450px;
 }
@@ -811,12 +807,13 @@ video {
     margin-right: 4rem;
   }
 
-  .sm\:ml-16 {
-    margin-left: 4rem;
-  }
-
   .sm\:w-3\/4 {
     width: 75%;
+  }
+
+  .sm\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .sm\:text-xl {
@@ -844,10 +841,6 @@ video {
   .md\:my-32 {
     margin-top: 8rem;
     margin-bottom: 8rem;
-  }
-
-  .md\:ml-24 {
-    margin-left: 6rem;
   }
 
   .md\:mr-12 {
@@ -902,19 +895,24 @@ video {
     justify-content: flex-end;
   }
 
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .md\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
 
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .md\:text-xl {
