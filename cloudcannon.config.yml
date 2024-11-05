@@ -33,7 +33,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: true
-        icon: notes
+        icon: plus
         _inputs:
           image:
             type: image
