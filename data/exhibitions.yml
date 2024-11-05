@@ -66,10 +66,3 @@
       location: Artists’ Open House
       year: '2019'
       link: https://dulwichfestival.co.uk/
-- year: '2025'
-  cover_image: /uploads/mordecai.jpeg
-  exhibitions:
-    - name: test
-      location: test
-      year: '2025'
-      link: ''
