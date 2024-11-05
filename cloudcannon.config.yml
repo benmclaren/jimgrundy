@@ -26,6 +26,8 @@ collection_groups:
 collections_config:
   more:
     path: content/more
+    add_option:
+      - name: Add standalone painting
     schemas:
       default:
         path: .cloudcannon/schemas/paintings.md
