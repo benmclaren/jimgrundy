@@ -262,6 +262,22 @@ EXCEPTIONS
   .first-exhibition-img:nth-child(2) {
     margin-top: 0; } }
 
+.carousel-image {
+  width: 50%;
+  scroll-snap-align: start;
+  flex-shrink: 0; }
+
+.carousel-container {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none; }
+
+.carousel-container::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* Hides scrollbar in Chrome, Safari, and newer Edge */ }
+
 @media (max-width: 768px) {
   #about-content p:last-child {
     margin-top: 1rem; } }

@@ -697,6 +697,10 @@ video {
   align-self: center;
 }
 
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
 .bg-background {
   --tw-bg-opacity: 1;
   background-color: rgb(245 253 252 / var(--tw-bg-opacity));

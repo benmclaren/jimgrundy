@@ -1,0 +1,18 @@
+.carousel-image {
+  width: 50%;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+.carousel-container {
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+}
+
+.carousel-container::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* Hides scrollbar in Chrome, Safari, and newer Edge */
+}
