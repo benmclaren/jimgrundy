@@ -72,7 +72,7 @@ collections_config:
         schema: series_info
         icon: add
     create:
-      path: '{painting_series}/{painting_series}_no{number}/index.md'
+      path: 'images/{painting_series}/{painting_series}_no{number}/index.md'
       _inputs:
         painting_series:
           type: text
