@@ -1,6 +1,5 @@
 - year: 2024
   cover_image: "../images/exhibitions/the_other_art_fair_truman_brewery.jpg"
-    # - "../images/exhibitions/other_art_fair.jpg"
   exhibitions:
     - name: "Tarpey Gallery"
       location: "Castle Donnington"
@@ -12,7 +11,6 @@
       link: "https://www.theotherartfair.com/"
 - year: 2023
   cover_image: "../images/exhibitions/the_other_art_fair_king's_cross.jpg"
-    # - "../images/exhibitions/tom_cox_gallery.jpg"
   exhibitions:
     - name: "The Other Art Fair"
       location: "King’s Cross, London"
@@ -36,7 +34,6 @@
       link: "https://exhibithere.com/"
 - year: 2022
   cover_image: "../images/exhibitions/artists_open_house_2.jpg"
-    # - "../images/exhibitions/affordable_art_fair_1.jpg"
   exhibitions:
     - name: "Affordable Art Fair"
       location: " Battersea – Steidel Contemporary Art"
