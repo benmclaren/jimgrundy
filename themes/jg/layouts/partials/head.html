@@ -3,3 +3,23 @@
 <link rel="icon" href="/images/jgfavicon.png" sizes="32x32" type="image/png">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partial "head/css.html" . }}
+<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+ <!-- Open Graph / Facebook -->
+<meta property="og:title" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} &middot; {{ .Site.Title }} {{- end }}">
+<meta property="og:description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ $.Site.Params.Description }}{{ end }}">
+<meta property="og:site_name" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} &middot; {{ .Site.Title }} {{- end }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ with .Site.Params.card_image }}{{ . }}{{ else }}img/apple-touch-icon.png{{ end }}">
+<!-- Twitter -->
+{{ if not .Site.Params.Twitter.hide }}
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:url" content="{{ .Permalink }}">
+  <meta property="twitter:title" content="{{ if .IsHome -}}{{ .Site.Title }} &middot; {{ $.Site.Params.strapline }}{{- else -}}{{ .Title }} &middot; {{ .Site.Title }} {{- end }}">
+  <meta property="twitter:description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ $.Site.Params.Description }}{{ end }}">
+  {{ with .Site.Params.twitter.handle }}
+    <meta property="twitter:site" content="{{ . }}">
+    <meta property="twitter:creator" content="{{ . }}">
+  {{ end }}
+{{ end }}
+
