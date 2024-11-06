@@ -5,3 +5,6 @@ title = 'Jim Grundy'
 theme = 'jg'
 [params]
 css = "/css/main.css"
+description = "Jim Grundy creates abstract paintings inspired by the natural and man made landscape. Born in Leicester, He is now working as a full time artist from his south London studio."
+card_image = "/images/home-1.jpg"
+strapline = "Abstract paintings inspired by the natural and man made landscape"
