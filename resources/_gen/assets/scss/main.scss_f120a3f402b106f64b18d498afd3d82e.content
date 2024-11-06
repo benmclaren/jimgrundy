@@ -129,6 +129,8 @@ header nav ul {
 
 .offscreen-nav-links {
   line-height: var(--line-height-lg); }
+  .offscreen-nav-links li {
+    cursor: pointer; }
   .offscreen-nav-links li:hover {
     background-color: var(--color-highlight); }
 

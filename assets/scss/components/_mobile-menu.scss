@@ -21,6 +21,10 @@
 .offscreen-nav-links {
   line-height: var(--line-height-lg);
 
+  li {
+    cursor: pointer;
+  }
+
   li:hover {
     background-color: var(--color-highlight);
   }
