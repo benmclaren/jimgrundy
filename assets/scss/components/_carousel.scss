@@ -5,12 +5,6 @@
 }
 
 .carousel-container {
-  // scroll-snap-type: x mandatory;
-  // scrollbar-width: none;
-  // -webkit-overflow-scrolling: touch;
-  // /* Firefox */
-  // -ms-overflow-style: none;
-
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
