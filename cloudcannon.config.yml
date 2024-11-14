@@ -53,7 +53,7 @@ collections_config:
     parse_branch_index: true
     icon: notes
     disable_add: false
-    disable_add_folder: false
+    disable_add_folder: true
     disable_file_actions: false
   paintings:
     disable_add_folder: false
