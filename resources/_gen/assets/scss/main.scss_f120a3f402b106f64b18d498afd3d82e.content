@@ -270,15 +270,20 @@ EXCEPTIONS
   flex-shrink: 0; }
 
 .carousel-container {
+  display: flex;
+  overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
   /* Firefox */
-  -ms-overflow-style: none; }
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  -webkit-overflow-scrolling: touch; }
 
 .carousel-container::-webkit-scrollbar {
   width: 0px;
   background: transparent;
-  /* Hides scrollbar in Chrome, Safari, and newer Edge */ }
+  /* Hides scrollbar in Chrome, Safari, and newer Edge */
+  display: none; }
 
 @media (max-width: 768px) {
   #about-content p:last-child {
