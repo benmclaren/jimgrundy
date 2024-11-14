@@ -1,26 +1,3 @@
-// const container = document.querySelector('.carousel-container');
-// console.log(container);
-
-// let scrollAmount = 0;
-// let scrollStep = 200; // Width of one image
-// let scrollInterval = 5000; // Time between scrolls (in milliseconds)
-// let maxScrollLeft = container.scrollWidth
-
-// function autoScroll() {
-//   // Scroll the container horizontally by `scrollStep` pixels
-//   container.scrollBy({ left: scrollStep, behavior: 'smooth' });
-//   scrollAmount += scrollStep;
-
-//   // Reset scroll position if we reach the end of the container
-//   if (scrollAmount >= container.scrollWidth - container.clientWidth) {
-//     scrollAmount = 0;
-//     container.scrollTo({ left: 0, behavior: 'smooth' });
-//   }
-// }
-
-// // Start auto - scrolling at the defined interval
-// setInterval(autoScroll, scrollInterval);
-
 const container = document.querySelector('.carousel-container');
 
 let scrollAmount = 0;
