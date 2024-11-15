@@ -17,7 +17,6 @@ paths:
 collection_groups:
   - heading: Collections
     collections:
-      - pages
       - paintings
       - more
   - heading: Data
