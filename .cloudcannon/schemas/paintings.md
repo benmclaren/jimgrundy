@@ -10,4 +10,5 @@ sale = false
 gallery = ''
 price = ''
 purchase_link = ''
+private = false
 +++
