@@ -11,5 +11,5 @@ sale = false
 gallery = "Private Collection"
 price = ""
 purchase_link = ""
-private = true
+private = false
 +++
