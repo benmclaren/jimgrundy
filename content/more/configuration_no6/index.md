@@ -1,10 +1,15 @@
 +++
-title = 'Configuration No.6'
-date = 2024-09-12T17:37:39+01:00
+_schema = "default"
+title = "Configuration No.6"
+year = "2017"
+description = "Acrylic on canvas"
+size = "90 x 90 cm"
+image = ""
+date = 2024-09-12T16:37:39.000Z
 draft = false
-year = '2017'
-description = 'Acrylic on canvas'
-size = '90 x 90 cm'
 sale = false
-gallery = 'Private Collection'
+gallery = "Private Collection"
+price = ""
+purchase_link = ""
+private = true
 +++
