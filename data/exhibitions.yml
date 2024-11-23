@@ -16,7 +16,7 @@
     - name: Bath Society of Artists Open Exhibition
       location: Victoria Art Gallery, Bath
       year: '2024'
-      link: www.bsaorg.uk
+      link: https://www.bsaorg.uk
 - year: '2023'
   cover_image: ../images/exhibitions/the_other_art_fair_king's_cross.jpg
   exhibitions:
