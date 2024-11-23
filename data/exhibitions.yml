@@ -17,6 +17,10 @@
       location: Victoria Art Gallery, Bath
       year: '2024'
       link: https://www.bsaorg.uk
+    - name: 'COMING UP: 13 Dec 2024 - 1 March 2025'
+      location: AKA Fine Art Winter Open, Cambridge
+      year: '2024'
+      link: https://www.akafineart.co.uk
 - year: '2023'
   cover_image: ../images/exhibitions/the_other_art_fair_king's_cross.jpg
   exhibitions:
