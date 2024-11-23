@@ -1,12 +1,15 @@
 +++
-title = 'Coincidence No.2'
-date = 2024-09-12T17:17:47+01:00
+_schema = "default"
+title = "Coincidence No.2"
+year = "2019"
+description = "Acrylic on paper"
+size = "30 x 30 cm"
+image = ""
+date = 2024-09-12T16:17:47.000Z
 draft = false
-year = '2019'
-description = 'Acrylic on paper'
-size = '30 x 30 cm'
 sale = true
-price = "£727"
-gallery = 'Saatchiart'
+gallery = "Saatchiart"
+price = ""
 purchase_link = "https://www.saatchiart.com/en-gb/art/Painting-Coincidence-No-2/962086/7098221/view"
+private = false
 +++
