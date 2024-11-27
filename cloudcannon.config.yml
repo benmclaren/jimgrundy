@@ -133,6 +133,7 @@ _inputs:
   price:
     hidden: '!sale'
   purchase_link:
+    type: text
     hidden: '!sale'
   draft:
     type: switch
