@@ -10,6 +10,6 @@ draft = false
 sale = true
 gallery = "Rise Art"
 price = ""
-purchase_link = ""
+purchase_link = "https://www.riseart.com/art/115086/figure-no-19-by-jim-grundy"
 private = false
 +++
