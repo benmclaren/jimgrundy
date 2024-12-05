@@ -8,8 +8,8 @@ image = "images/paintings/figures/figure_no35_2021.jpg"
 date = 2024-08-29T10:17:06.000Z
 draft = false
 sale = true
-gallery = "Risa Art"
+gallery = "Rise Art"
 price = ""
-purchase_link = ""
+purchase_link = "https://www.riseart.com/art/115209/figure-no-35-by-jim-grundy"
 private = false
 +++
