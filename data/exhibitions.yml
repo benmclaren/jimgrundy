@@ -1,3 +1,14 @@
+- year: '2025'
+  cover_image: ''
+  exhibitions:
+    - name: 'COMING UP: 6-9 March 2025'
+      location: The Other Art Fair, Truman Brewery London
+      year: '2025'
+      link: ''
+    - name: ''
+      location: ''
+      year: ''
+      link: ''
 - year: '2024'
   cover_image: ../images/exhibitions/the_other_art_fair_truman_brewery.jpg
   exhibitions:
@@ -78,14 +89,3 @@
       location: Artists’ Open House
       year: '2019'
       link: https://dulwichfestival.co.uk/
-- year: '2025'
-  cover_image: ''
-  exhibitions:
-    - name: 'COMING UP: 6-9 March 2025'
-      location: The Other Art Fair, Truman Brewery London
-      year: '2025'
-      link: ''
-    - name: ''
-      location: ''
-      year: ''
-      link: ''
