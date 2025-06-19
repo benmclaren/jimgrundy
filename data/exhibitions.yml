@@ -13,6 +13,10 @@
       location: ''
       year: ''
       link: ''
+    - name: ''
+      location: ''
+      year: ''
+      link: ''
 - year: '2024'
   cover_image: ../images/exhibitions/the_other_art_fair_truman_brewery.jpg
   exhibitions:
@@ -24,7 +28,7 @@
       location: Truman Brewery, London
       year: '2024'
       link: https://www.theotherartfair.com/
-    - name: 'CURRENT: A Space for Art'
+    - name: A Space for Art
       location: Myo St.Paul's, One New Change, London
       year: '2024'
       link: https://www.aspaceforart.com
