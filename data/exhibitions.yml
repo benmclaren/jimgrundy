@@ -1,3 +1,10 @@
+- year: '2026'
+  cover_image: ''
+  exhibitions:
+    - name: ''
+      location: ''
+      year: ''
+      link: ''
 - year: '2025'
   cover_image: /uploads/ra-summer-show.jpg
   exhibitions:
