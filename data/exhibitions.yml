@@ -81,7 +81,7 @@
     - name: Dulwich Festival
       location: Artists’ Open House
       year: '2022'
-      link": https://dulwichfestival.co.uk/
+      link: https://dulwichfestival.co.uk/
 - year: '2020'
   cover_image: ../images/exhibitions/west_palm_beach.jpg
   exhibitions:
