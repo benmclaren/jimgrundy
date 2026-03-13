@@ -116,8 +116,6 @@ collections_config:
         type: text
       cover_image:
         type: file
-      cover_image[*]:
-        type: image
         options:
           paths:
             uploads: 'images/exhibitions/'
