@@ -1,7 +1,3 @@
-- year: '2026'
-  cover_image: ../images/exhibitions/ra-summer-show.jpg
-  exhibitions: []
-
 - year: '2025'
   cover_image: ../images/exhibitions/ra-summer-show.jpg
   exhibitions:
@@ -13,7 +9,6 @@
       location: 17 June - 17 August 2025
       year: '2025'
       link: ''
-
 - year: '2024'
   cover_image: ../images/exhibitions/the_other_art_fair_truman_brewery.jpg
   exhibitions:
@@ -37,7 +32,6 @@
       location: Cambridge
       year: '2024'
       link: https://www.akafineart.co.uk
-
 - year: '2023'
   cover_image: ../images/exhibitions/the_other_art_fair_kings_cross.jpg
   exhibitions:
@@ -56,12 +50,12 @@
     - name: FStone Gallery
       location: Folkestone – (Group Show)
       year: '2023'
-      link: https://www.creativefolkestone.org.uk/folkestone-creative-quarter/community/folkestone-art-gallery/
+      link: >-
+        https://www.creativefolkestone.org.uk/folkestone-creative-quarter/community/folkestone-art-gallery/
     - name: Bargehouse
       location: Art Maze, Oxo Tower
       year: '2023'
       link: https://exhibithere.com/
-
 - year: '2022'
   cover_image: ../images/exhibitions/artists_open_house_2.jpg
   exhibitions:
@@ -73,7 +67,6 @@
       location: Artists’ Open House
       year: '2022'
       link: https://dulwichfestival.co.uk/
-
 - year: '2020'
   cover_image: ../images/exhibitions/west_palm_beach.jpg
   exhibitions:
@@ -81,7 +74,6 @@
       location: Steidel Fine Art
       year: '2020'
       link: https://www.steidelcontemporary.com/
-
 - year: '2019'
   cover_image: ../images/exhibitions/artists_open_house_3.jpg
   exhibitions:
@@ -97,3 +89,10 @@
       location: Artists’ Open House
       year: '2019'
       link: https://dulwichfestival.co.uk/
+- year: '2026'
+  cover_image: ''
+  exhibitions:
+    - name: Test
+      location: Test
+      year: '2026'
+      link: ''
