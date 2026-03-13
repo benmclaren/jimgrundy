@@ -106,21 +106,32 @@ collections_config:
           path: '{painting_series}/_index.md'
           _enabled_editors:
             - data
-  exhibitions:
-    path: data
-    preview: label
-    _inputs:
-      year:
-        type: text
-      exhibitions: 
-        type: text
-      cover_image:
-        type: file
-        options:
-          paths:
-            uploads: 'images/exhibitions/'
-            static: ''
-        cascade: true
+exhibitions:
+  path: data
+  preview: year
+  _inputs:
+    year:
+      type: text
+
+    cover_image:
+      type: image
+      options:
+        paths:
+          uploads: 'images/exhibitions/'
+          static: ''
+      cascade: true
+
+    exhibitions[*].name:
+      type: text
+
+    exhibitions[*].location:
+      type: text
+
+    exhibitions[*].year:
+      type: text
+
+    exhibitions[*].link:
+      type: url
 _inputs:
   layout:
     type: text
