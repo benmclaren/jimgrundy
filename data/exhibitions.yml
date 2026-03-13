@@ -1,13 +1,21 @@
 - year: '2025'
-  cover_image: ../images/exhibitions/ra-summer-show.jpg
-  exhibitions:
+  cover_image: /uploads/ra-summer-show.jpg
+  exhibitions: 
     - name: The Other Art Fair London
       location: 6-9 March 2025
       year: '2025'
-      link: https://www.theotherartfair.com
+      link: www.theotherartfair.com
     - name: CURRENT - Royal Academy Summer Show
       location: 17 June - 17 August 2025
       year: '2025'
+      link: ''
+    - name: ''
+      location: ''
+      year: ''
+      link: ''
+    - name: ''
+      location: ''
+      year: ''
       link: ''
 - year: '2024'
   cover_image: ../images/exhibitions/the_other_art_fair_truman_brewery.jpg
@@ -33,7 +41,7 @@
       year: '2024'
       link: https://www.akafineart.co.uk
 - year: '2023'
-  cover_image: ../images/exhibitions/the_other_art_fair_kings_cross.jpg
+  cover_image: ../images/exhibitions/the_other_art_fair_king's_cross.jpg
   exhibitions:
     - name: The Other Art Fair
       location: King’s Cross, London
@@ -44,7 +52,7 @@
       year: '2023'
       link: https://dulwichfestival.co.uk/
     - name: Tom Cox Gallery
-      location: Alchemy (Group Show)
+      location: ' Alchemy (Group Show)'
       year: '2023'
       link: https://www.tomcoxstudio.com/exhibitions/alchemy-opencall-exhibition
     - name: FStone Gallery
@@ -60,7 +68,7 @@
   cover_image: ../images/exhibitions/artists_open_house_2.jpg
   exhibitions:
     - name: Affordable Art Fair
-      location: Battersea – Steidel Contemporary Art
+      location: ' Battersea – Steidel Contemporary Art'
       year: '2022'
       link: https://affordableartfair.com/
     - name: Dulwich Festival
