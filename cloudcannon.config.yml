@@ -1,16 +1,6 @@
 _snippets_imports:
   hugo: false
-paths:
-  data: data
-  collections: content
-  layouts: layouts
-  static: static
-  uploads: static/uploads
-  includes: layouts
-  source: ''
-  archetypes: archetypes
-  assets: assets_snippets_imports:
-  hugo: false
+
 paths:
   data: data
   collections: content
@@ -25,6 +15,7 @@ paths:
   pages: content
   publish: public
   config: ''
+
 collection_groups:
   - heading: Collections
     collections:
@@ -33,6 +24,7 @@ collection_groups:
   - heading: Data
     collections:
       - exhibitions
+
 collections_config:
   more:
     path: content/more
@@ -56,6 +48,7 @@ collections_config:
             cascade: true
     create:
       path: '/{title}/index.md'
+
   pages:
     path: content/pages
     output: true
@@ -65,6 +58,7 @@ collections_config:
     disable_add: false
     disable_add_folder: true
     disable_file_actions: false
+
   paintings:
     disable_add_folder: false
     _enabled_editors:
@@ -88,7 +82,7 @@ collections_config:
           type: text
           comment: >-
             Add the name of the series (must be lowercase and multiple words
-            seperated by an underscore).
+            separated by an underscore).
           cascade: true
         number:
           type: number
@@ -117,21 +111,34 @@ collections_config:
           path: '{painting_series}/_index.md'
           _enabled_editors:
             - data
+
   exhibitions:
     path: data
-    preview: label
+    preview: year
     _inputs:
       year:
         type: text
-      exhibitions: 
-        type: text
+
       cover_image:
-        type: file
+        type: image
         options:
           paths:
             uploads: 'images/exhibitions/'
             static: ''
         cascade: true
+
+      exhibitions[*].name:
+        type: text
+
+      exhibitions[*].location:
+        type: text
+
+      exhibitions[*].year:
+        type: text
+
+      exhibitions[*].link:
+        type: url
+
 _inputs:
   layout:
     type: text
@@ -148,146 +155,6 @@ _inputs:
     type: switch
   intro:
     type: textarea
-data_config: {}
-timezone: Europe/London
 
-  content: content
-  pages: content
-  publish: public
-  config: ''
-collection_groups:
-  - heading: Collections
-    collections:
-      - paintings
-      - more
-  - heading: Data
-    collections:
-      - exhibitions
-collections_config:
-  more:
-    path: content/more
-    add_option:
-      - name: Add standalone painting
-    schemas:
-      default:
-        path: .cloudcannon/schemas/paintings.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: add
-        _inputs:
-          image:
-            type: image
-            options:
-              paths:
-                uploads: '[base_path]/'
-                static: ''
-            cascade: true
-    create:
-      path: '/{title}/index.md'
-  pages:
-    path: content/pages
-    output: true
-    filter: strict
-    parse_branch_index: true
-    icon: notes
-    disable_add: false
-    disable_add_folder: true
-    disable_file_actions: false
-  paintings:
-    disable_add_folder: false
-    _enabled_editors:
-      - visual
-      - data
-    path: content/paintings
-    icon: notes
-    output: true
-    add_option:
-      - name: Add painting
-        editor: data
-        icon: add
-      - name: Add series information
-        editor: data
-        schema: series_info
-        icon: add
-    create:
-      path: '{painting_series}/{painting_series}_no{number}/index.md'
-      _inputs:
-        painting_series:
-          type: text
-          comment: >-
-            Add the name of the series (must be lowercase and multiple words
-            seperated by an underscore).
-          cascade: true
-        number:
-          type: number
-          label: Painting number
-          comment: Add the number of the painting in the series.
-          cascade: true
-    schemas:
-      default:
-        path: .cloudcannon/schemas/paintings.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: notes
-        _inputs:
-          image:
-            type: image
-            options:
-              paths:
-                uploads: '[base_path]/'
-                static: ''
-            cascade: true
-      series_info:
-        path: .cloudcannon/schemas/series_info.md
-        create:
-          path: '{painting_series}/_index.md'
-          _enabled_editors:
-            - data
-exhibitions:
-  path: data
-  preview: year
-  _inputs:
-    year:
-      type: text
-
-    cover_image:
-      type: image
-      options:
-        paths:
-          uploads: 'images/exhibitions/'
-          static: ''
-      cascade: true
-
-    exhibitions[*].name:
-      type: text
-
-    exhibitions[*].location:
-      type: text
-
-    exhibitions[*].year:
-      type: text
-
-    exhibitions[*].link:
-      type: url
-_inputs:
-  layout:
-    type: text
-    hidden: true
-    cascade: true
-  sale:
-    type: switch
-  price:
-    hidden: '!sale'
-  purchase_link:
-    type: text
-    hidden: '!sale'
-  draft:
-    type: switch
-  intro:
-    type: textarea
 data_config: {}
 timezone: Europe/London
