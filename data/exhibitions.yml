@@ -5,10 +5,10 @@
       location: Truman Brewery
       year: '2025'
       link: www.theotherartfair.com
-    - name: CURRENT - Royal Academy Summer Show
-      location: 17 June - 17 August 2025
+    - name: Royal Academy Summer Show
+      location: Burlington House
       year: '2025'
-      link: ''
+      link: https://www.royalacademy.org.uk
     - name: ''
       location: ''
       year: ''
