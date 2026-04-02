@@ -1,5 +1,5 @@
 - year: '2026'
-  cover_image: ../images/exhibitions/bio.jpg
+  cover_image: /images/exhibitions/bio.jpg
   exhibitions:
     - name: COMING UP - Art Space Fair
       location: 'The Vaults, St. Katherine''s Dock, London: 10-12 April'
