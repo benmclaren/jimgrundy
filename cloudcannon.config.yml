@@ -123,8 +123,8 @@ collections_config:
         type: image
         options:
           paths:
-            uploads: 'images/exhibitions/'
-            static: ''
+            uploads: 'static/images/exhibitions/'
+            static: 'static'
         cascade: true
 
       exhibitions[*].name:
