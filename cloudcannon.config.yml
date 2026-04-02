@@ -123,7 +123,7 @@ collections_config:
         type: image
         options:
           paths:
-            uploads: 'static/images/exhibitions/'
+            uploads: 'images/exhibitions/'
             static: ''
         cascade: true
 
