@@ -108,3 +108,10 @@
       location: Artists’ Open House
       year: '2019'
       link: https://dulwichfestival.co.uk/
+- year: '2027'
+  cover_image: /images/exhibitions/bio-1.jpg
+  exhibitions:
+    - name: Test
+      location: Test
+      year: '2027'
+      link: ''
